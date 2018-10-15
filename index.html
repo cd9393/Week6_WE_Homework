@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homework</title>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+</head>
+<body>
+  <div id='title'>
+
+  <h1> Create a List of Endangered Animals</h1>
+
+</div>
+
+  <form id = "info-form">
+    <div class = "form-container">
+      <div class = "form-item">
+        <label for="Name" class="primary">Name</label>
+        <input type="text" id="Name" required/>
+      </div>
+
+      <div class = "form-item">
+        <label for="Species" class="primary">Species</label>
+        <input type="text" id="Species" required/>
+      </div>
+
+      <div class = "form-item">
+        <label for="Continent" class="primary">Continent</label>
+        <select id="Continent">
+          <option value="Asia">Asia</option>
+          <option value="Africa">Africa</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Antartica">Antartica</option>
+          <option value="Australia">Australia</option>
+          <option value="Europe">Europe</option>
+        </select>
+      </div>
+
+      <div class="radioButton">
+        <input type="radio" name="Asia" id="Asia" value="Asia">
+        <label for="Asia">Asia</label>
+
+        <input type="radio" name="Africa" id="Africa" value="Africa">
+        <label for="Africa">Africa</label>
+
+        <input type="radio" name="North Amercia" id="North America" value="North America">
+        <label for="North Amercia">North America</label>
+      </div>
+      <input class="myButton" type="Submit" value="Save Item">
+    </div>
+  </form>
+<div class="list-header">
+  <h1> Endangered Species </h1>
+</div>
+  <button id="delete-all">Delete All</button>
+  <div id = "species-list"></div>
+</body>
+</html>

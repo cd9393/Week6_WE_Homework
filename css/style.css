@@ -1,0 +1,103 @@
+body{
+  background-color:#EDF5FC;
+
+}
+
+h1{
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+h3{
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+p{
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+
+.form-container{
+  padding:20px;
+  display:flex;
+  flex-flow:row wrap;
+justify-content:space-around;
+}
+
+.form-item{
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 20pt;
+}
+
+.list-header{
+  display: flex;
+  justify-content:center;
+  border-top:solid 2.5px #226F54;
+}
+
+#title{
+  display:flex;
+  justify-content:center;
+  padding:10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  border-bottom: solid 2.5px #226F54;
+}
+
+#species-list{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-around;
+}
+
+.animal{
+  display: flex;
+  flex-direction:column;
+  text-align:center;
+  background-color: #92DCE5;
+  margin:2.5%;
+  width:20%;
+  border-radius:10px 10px 10px 10px ;
+}
+
+.myButton {
+	background-color:#226F54;
+	border-radius:27px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:14pt;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#delete-all {
+	background-color:#226F54;
+	border-radius:27px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:14pt;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#delete-all:hover {
+	background-color:#5cbf2a;
+}
+#delete-all:active {
+	position:relative;
+	top:1px;
+}
